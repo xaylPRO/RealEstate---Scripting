@@ -1,0 +1,10 @@
+#filter {
+    width: 60%;
+    height:auto;
+    background-color: white;
+    margin: auto;
+    border: 0.2rem solid #0080cc;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+    

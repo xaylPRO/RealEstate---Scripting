@@ -1,0 +1,158 @@
+html {
+    font-size: 65.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+#header {
+    width: 100%;
+    background-color: #ffffff;
+}
+#header #navBar {
+    width: 100%;
+    height: 5rem;
+}
+#nav nav ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ffffff;
+}
+#nav nav ul li {
+    width: 10rem;
+    height: 100%;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    display: block;
+    border-bottom: 0.2rem solid #0080cc;
+} 
+#nav nav ul li:hover  {
+    background-color: #0080cc;
+}
+#nav nav ul li a {
+    text-decoration: none !important;
+    display: block;
+    color: #0080cc;
+}
+#nav nav ul li a:hover {
+    color: #ffffff;
+}
+#site-logo {
+    width: 100%;
+    height: 12rem;
+    background-color: #0080cc;
+    border-bottom: 0.3rem solid white;
+    border-right: 0.3rem solid white;
+    border-left: 0.3rem solid white;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2.5rem;
+    font-family: 'Cinzel', serif;
+}
+#jumbo-header {
+    margin-top: 0.2rem;
+    padding-top: 10rem;
+    width: 100%;
+    height: 50rem;
+    background-color: white;
+    background-image: url("img/Mexicos-real-estate-2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+#search {
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    opacity: 0.9;
+    font-size: 1.5rem;
+    border: 0.3rem solid orange;
+}
+#search .dropdown {
+    display: inline;
+}
+#search .dropdown .dropdown-item {
+    font-size: 1.5rem;
+    
+}
+#serach .input-group mb-3{
+    display: inline;
+}
+#main-content {
+    margin-top: 5rem;
+}
+#main-content {
+    height: auto;
+}
+#main-content .col-9 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#side-bar {
+    width: 100%;
+    background-color: #e5e5e5;
+}
+#info_tag {
+    width: 20rem;
+    height: 4rem;
+    background-color: #0080cc;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+#info_tag h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.news_box img {
+    max-width: 100%;
+    min-height: 15rem;
+    max-height: 15rem;
+}
+
+.news_box {
+    padding: 0.5rem;
+    border: 1px solid rgba(0,0,0,.125);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#side-bar img {
+    max-width: 100%;
+}
+.market-box {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 0.5rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+.agents-box img {
+    max-width: 70%;
+}
+.agents-box {
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 0.5rem;
+
+}
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-top: 0.5rem solid #0080cc;
+    padding-top: 2rem; 
+    padding-bottom: 2rem;     
+}
